@@ -154,8 +154,7 @@ class Scraper:
         tags: [] = h.xpath(
             '/html/body/div[@id="wrapper"]/div[@id="content"]'
             '/div[@class="grid-16-8 clearfix"]/div[@class="article"]'
-            # '/div[@class=""]/div[@class="indent tag_cloud"]'
-            '/div[2]/div'
+            '/div[@class=""]/div[@class="indent tag_cloud"]'
             "/table/tbody/tr/td/a/@href"
         )
         conn = sqlite3.connect(self.database)
