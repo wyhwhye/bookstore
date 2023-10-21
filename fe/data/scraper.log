@@ -17,9 +17,3 @@ ERROR:root:table tags already exists
 ERROR:root:table book already exists
 ERROR:root:table progress already exists
 ERROR:root:UNIQUE constraint failed: tags.tag
-ERROR:root:table tags already exists
-ERROR:root:table book already exists
-ERROR:root:table progress already exists
-ERROR:root:UNIQUE constraint failed: tags.tag
-ERROR:root:error when scrape 36249581, 
-ERROR:root:None

@@ -33,11 +33,10 @@ class BookDB:
         parent_path = os.path.dirname(os.path.dirname(__file__))
         self.db_s = os.path.join(parent_path, "data/book.db")
         self.db_l = os.path.join(parent_path, "data/book_lx.db")
-        # if large:
-        #     self.book_db = self.db_l
-        # else:
-        #     self.book_db = self.db_s
-        self.book_db = self.db_s
+        if large:
+            self.book_db = self.db_l
+        else:
+            self.book_db = self.db_s
 
     def get_book_count(self):
         conn = sqlite.connect(self.book_db)
@@ -80,16 +79,13 @@ class BookDB:
 
             picture = row[16]
 
-            # for tag in tags.split("\n"):
-            #     if tag.strip() != "":
-            #         book.tags.append(tag)
+            for tag in tags.split("\n"):
+                if tag.strip() != "":
+                    book.tags.append(tag)
             for i in range(0, random.randint(0, 9)):
-                # if picture is not None:
-                #     encode_str = base64.b64encode(picture).decode("utf-8")
-                #     book.pictures.append(encode_str)
-                encode_str = base64.b64encode(picture).decode("utf-8")
-                book.pictures.append(encode_str)
-
+                if picture is not None:
+                    encode_str = base64.b64encode(picture).decode("utf-8")
+                    book.pictures.append(encode_str)
             books.append(book)
             # print(tags.decode('utf-8'))
 

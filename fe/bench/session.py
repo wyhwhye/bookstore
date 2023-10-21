@@ -35,15 +35,10 @@ class Session(threading.Thread):
             after = time.time()
             self.time_new_order = self.time_new_order + after - before
             self.new_order_i = self.new_order_i + 1
-
-            # if ok:
-            #     self.new_order_ok = self.new_order_ok + 1
-            #     payment = Payment(new_order.buyer, order_id)
-            #     self.payment_request.append(payment)
-            self.new_order_ok = self.new_order_ok + 1
-            payment = Payment(new_order.buyer, order_id)
-            self.payment_request.append(payment)
-
+            if ok:
+                self.new_order_ok = self.new_order_ok + 1
+                payment = Payment(new_order.buyer, order_id)
+                self.payment_request.append(payment)
             if self.new_order_i % 100 or self.new_order_i == len(
                 self.new_order_request
             ):
@@ -61,9 +56,6 @@ class Session(threading.Thread):
                     after = time.time()
                     self.time_payment = self.time_payment + after - before
                     self.payment_i = self.payment_i + 1
-
-                    # if ok:
-                    #     self.payment_ok = self.payment_ok + 1
-                    self.payment_ok = self.payment_ok + 1
-
+                    if ok:
+                        self.payment_ok = self.payment_ok + 1
                 self.payment_request = []

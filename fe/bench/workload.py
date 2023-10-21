@@ -40,11 +40,8 @@ class Workload:
         self.row_count = self.book_db.get_book_count()
 
         self.book_num_per_store = conf.Book_Num_Per_Store
-
-        # if self.row_count < self.book_num_per_store:
-        #     self.book_num_per_store = self.row_count
-        self.book_num_per_store = self.row_count
-
+        if self.row_count < self.book_num_per_store:
+            self.book_num_per_store = self.row_count
         self.store_num_per_user = conf.Store_Num_Per_User
         self.seller_num = conf.Seller_Num
         self.buyer_num = conf.Buyer_Num
@@ -94,10 +91,8 @@ class Workload:
 
                 while row_no < self.book_num_per_store:
                     books = self.book_db.get_book_info(row_no, self.batch_size)
-
-                    # if len(books) == 0:
-                    #     break
-
+                    if len(books) == 0:
+                        break
                     for bk in books:
                         code = seller.add_book(store_id, self.stock_level, bk)
                         assert code == 200

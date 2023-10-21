@@ -37,12 +37,10 @@ class TestPayment:
         for item in self.buy_book_info_list:
             book: Book = item[0]
             num = item[1]
-
-            # if book.price is None:
-            #     continue
-            # else:
-            #     self.total_price = self.total_price + book.price * num
-            self.total_price = self.total_price + book.price * num
+            if book.price is None:
+                continue
+            else:
+                self.total_price = self.total_price + book.price * num
         yield
 
     def test_ok(self):

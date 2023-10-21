@@ -25,11 +25,8 @@ class GenBook:
         book_db = book.BookDB()
         rows = book_db.get_book_count()
         start = 0
-
-        # if rows > max_book_count:
-        #     start = random.randint(0, rows - max_book_count)
-        start = random.randint(0, rows - max_book_count)
-
+        if rows > max_book_count:
+            start = random.randint(0, rows - max_book_count)
         size = random.randint(1, max_book_count)
         books = book_db.get_book_info(start, size)
         book_id_exist = []
@@ -46,13 +43,10 @@ class GenBook:
 
         for bk in book_id_exist:
             stock_level = book_id_stock_level[bk.id]
-
-            # if stock_level > 1:
-            #     buy_num = random.randint(1, stock_level)
-            # else:
-            #     buy_num = 0
-            buy_num = random.randint(1, stock_level)
-
+            if stock_level > 1:
+                buy_num = random.randint(1, stock_level)
+            else:
+                buy_num = 0
             # add a new pair
             if non_exist_book_id:
                 bk.id = bk.id + "_x"
