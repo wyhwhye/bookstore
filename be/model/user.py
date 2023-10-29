@@ -72,6 +72,7 @@ class User(db_conn.DBConn):
                 "orders": []
 
             }
+
             user_col = self.conn['user']
             user_col.insert_one(user_data)
 
