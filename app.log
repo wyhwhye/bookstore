@@ -1,0 +1,232 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:25:08] "[33mPOST /author/register HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:25:44] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:25:44] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:25:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 32, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:26:11] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 32, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:26:26] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 33, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:29:05] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 33, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:30:36] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 34, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:31:24] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 34, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:31:59] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 34, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:32:25] "[35m[1mPOST /auth/register?user_id=wyh&password=wyh12345 HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 34, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:35:06] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\auth.py", line 34, in register
+    user_id = request.json.get("user_id", "")
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:35:55] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:37:32] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:39:23] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\fe\\access\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\fe\\access\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\fe\\access\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\fe\\access\\auth.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 10:43:50] "[35m[1mPOST /auth/register HTTP/1.1[0m" 512 -
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\store.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\store.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\store.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\store.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\threading.py', reloading
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2023 11:32:18] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
