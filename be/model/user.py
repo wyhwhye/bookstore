@@ -71,7 +71,6 @@ class User(db_conn.DBConn):
                 "terminal": terminal,
                 "stores": [],
                 "orders": []
-
             }
 
             # user_col = self.conn['user']
