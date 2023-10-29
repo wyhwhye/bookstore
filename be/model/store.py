@@ -13,6 +13,7 @@ class Store:
         client = pymongo.MongoClient("mongodb://localhost:27017/")  # 连接mongodb
         db = client.bookstore  # 切换到bookstore数据库
 
+        # 设置唯一索引
         book_col = db['book']
         book_col.create_index([("isbn", 1)], unique=True)
 

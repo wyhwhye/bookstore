@@ -42,6 +42,7 @@ class User(db_conn.DBConn):
 
     def __init__(self):
         db_conn.DBConn.__init__(self)
+        self.user_col = self.conn['user']
 
     def __check_token(self, user_id, db_token, token) -> bool:
         try:
@@ -73,8 +74,8 @@ class User(db_conn.DBConn):
 
             }
 
-            user_col = self.conn['user']
-            user_col.insert_one(user_data)
+            # user_col = self.conn['user']
+            self.user_col.insert_one(user_data)
 
             # self.conn.execute(
             #     "INSERT into user(user_id, password, balance, token, terminal) "
@@ -88,27 +89,42 @@ class User(db_conn.DBConn):
         return 200, "ok"
 
     def check_token(self, user_id: str, token: str) -> (int, str):
-        cursor = self.conn.execute("SELECT token from user where user_id=?", (user_id,))
-        row = cursor.fetchone()
-        if row is None:
+        result = self.user_col.find_one({"user_id": user_id})
+        if result is None:
             return error.error_authorization_fail()
-        db_token = row[0]
+        db_token = result['token']
         if not self.__check_token(user_id, db_token, token):
             return error.error_authorization_fail()
         return 200, "ok"
 
+        # cursor = self.conn.execute("SELECT token from user where user_id=?", (user_id,))
+        # row = cursor.fetchone()
+        # if row is None:
+        #     return error.error_authorization_fail()
+        # db_token = row[0]
+        # if not self.__check_token(user_id, db_token, token):
+        #     return error.error_authorization_fail()
+        # return 200, "ok"
+
     def check_password(self, user_id: str, password: str) -> (int, str):
-        cursor = self.conn.execute(
-            "SELECT password from user where user_id=?", (user_id,)
-        )
-        row = cursor.fetchone()
-        if row is None:
+        result = self.user_col.find_one({"user_id": user_id})
+        if result is None:
             return error.error_authorization_fail()
-
-        if password != row[0]:
+        if password != result['password']:
             return error.error_authorization_fail()
-
         return 200, "ok"
+
+        # cursor = self.conn.execute(
+        #     "SELECT password from user where user_id=?", (user_id,)
+        # )
+        # row = cursor.fetchone()
+        # if row is None:
+        #     return error.error_authorization_fail()
+        #
+        # if password != row[0]:
+        #     return error.error_authorization_fail()
+        #
+        # return 200, "ok"
 
     def login(self, user_id: str, password: str, terminal: str) -> (int, str, str):
         token = ""
