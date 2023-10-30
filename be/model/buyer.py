@@ -4,7 +4,7 @@
 # import logging
 # from be.model import db_conn
 # from be.model import error
-
+import json
 
 # class Buyer(db_conn.DBConn):
 #     def __init__(self):
@@ -191,60 +191,56 @@ import pymongo
 from pymongo import MongoClient
 import uuid
 
+from be.model import db_conn
 
-class Buyer:
-    def __init__(self, db_client):
-        self.client = db_client
-        self.db = self.client['bookstore']
+
+class Buyer(db_conn.DBConn):
+    def __init__(self):
+        db_conn.DBConn.__init__(self)
+        self.store_col = self.conn['store']
+        self.user_col = self.conn['user']
+        self.order_col = self.conn['order']
 
     def new_order(self, user_id: str, store_id: str, books: [(str, int)]) -> (int, str, str):
         order_id = ""
         try:
-            user = self.db['users'].find_one({"user_id": user_id})
+            user = self.user_col.find_one({"user_id": user_id})
             if user is None:
                 return 511, "Non exist user id {}".format(user_id), order_id
 
-            store = self.db['stores'].find_one({"store_id": store_id})
+            store = self.store_col.find_one({"store_id": store_id})
             if store is None:
                 return 513, "Non exist store id {}".format(store_id), order_id
 
             uid = "{}_{}_{}".format(user_id, store_id, str(uuid.uuid1()))
-
+            purchases = []
             for book in books:
-                book_id = book['id']
-                count = book['count']
-
-                book = self.db['store'].find_one({"store_id": store_id, "book_id": book_id})
+                book_id = book[0]
+                count = book[1]
+                book = self.store_col.find_one(
+                    {"store_id": store_id, "books.book_id": book_id},
+                    {"books.$": 1}
+                )
+                book = book['books'][0]
                 if book is None:
                     return 515, "Non exist book id {}".format(book_id), order_id
-
                 stock_level = book['stock_level']
-                price = book['book_info']['price']
-
+                price = json.loads(book['book_info'])['price']
                 if stock_level < count:
                     return 517, "Stock level low, book id {}".format(book_id), order_id
-
-                self.db['store'].update_one(
-                    {"store_id": store_id, "book_id": book_id, "stock_level": {"$gte": count}},
-                    {"$inc": {"stock_level": -count}}
+                self.store_col.update_one(
+                    {"store_id": store_id, "books.book_id": book_id, "books.stock_level": {"$gte": count}},
+                    {"$inc": {"books.$.stock_level": -count}}
                 )
-                if self.db['store'].update_one(
-                        {"store_id": store_id, "book_id": book_id, "stock_level": {"$gte": count}},
-                        {"$inc": {"stock_level": -count}}
-                ).modified_count == 0:
-                    return 517, "Stock level low, book id {}".format(book_id), order_id
+                purchases.append({"book_id": book_id, "count": count, "price": price})
 
-                self.db['order_detail'].insert_one({
-                    "order_id": uid,
-                    "book_id": book_id,
-                    "count": count,
-                    "price": price
-                })
-
-            self.db['orders'].insert_one({
+            self.order_col.insert_one({
                 "order_id": uid,
+                "user_id": user_id,
                 "store_id": store_id,
-                "user_id": user_id
+                "books": purchases,
+                "status": None,
+                "TTL": None
             })
 
             order_id = uid
@@ -259,7 +255,7 @@ class Buyer:
 
     def payment(self, user_id: str, password: str, order_id: str) -> (int, str):
         try:
-            order = self.db['orders'].find_one({"order_id": order_id})
+            order = self.order_col.find_one({"order_id": order_id})
             if order is None:
                 return 518, "Invalid order id {}".format(order_id)
 
@@ -269,57 +265,39 @@ class Buyer:
             if buyer_id != user_id:
                 return 401, "Authorization fail"
 
-            user = self.db['users'].find_one({"user_id": buyer_id})
+            user = self.user_col.find_one({"user_id": buyer_id})
             if user is None:
                 return 511, "Non exist user id {}".format(buyer_id)
             if password != user['password']:
                 return 401, "Authorization fail"
 
-            seller = self.db['user_store'].find_one({"store_id": store_id})
+            seller = self.store_col.find_one({"store_id": store_id})
             if seller is None:
                 return 513, "Non exist store id {}".format(store_id)
 
             seller_id = seller['user_id']
 
-            if self.db['users'].find_one({"user_id": seller_id}) is None:
+            if self.user_col.find_one({"user_id": seller_id}) is None:
                 return 511, "Non exist user id {}".format(seller_id)
 
             total_price = 0
-            cursor = self.db['order_detail'].find({"order_id": order_id})
-            for item in cursor:
+            cursor = self.order_col.find_one({"order_id": order_id})
+            for item in cursor['books']:
                 count = item['count']
                 price = item['price']
                 total_price += price * count
 
             buyer_balance = user['balance']
-
+            print("total_price: ", total_price)
             if buyer_balance < total_price:
                 return 519, "Not sufficient funds, order id {}".format(order_id)
 
-            self.db['users'].update_one(
+            self.user_col.update_one(
                 {"user_id": buyer_id, "balance": {"$gte": total_price}},
                 {"$inc": {"balance": -total_price}}
             )
 
-            if self.db['users'].update_one(
-                    {"user_id": buyer_id, "balance": {"$gte": total_price}},
-                    {"$inc": {"balance": -total_price}}
-            ).modified_count == 0:
-                return 519, "Not sufficient funds, order id {}".format(order_id)
-
-            self.db['users'].update_one(
-                {"user_id": buyer_id},
-                {"$inc": {"balance": total_price}}
-            )
-
-            if self.db['users'].update_one(
-                    {"user_id": buyer_id},
-                    {"$inc": {"balance": total_price}}
-            ).modified_count == 0:
-                return 511, "Non exist user id {}".format(buyer_id)
-
-            self.db['orders'].delete_one({"order_id": order_id})
-            self.db['order_detail'].delete_many({"order_id": order_id})
+            self.order_col.delete_one({"order_id": order_id})
 
         except pymongo.errors.PyMongoError as e:
             return 528, "{}".format(str(e))
@@ -331,22 +309,16 @@ class Buyer:
 
     def add_funds(self, user_id, password, add_value) -> (int, str):
         try:
-            user = self.db['users'].find_one({"user_id": user_id})
+            user = self.user_col.find_one({"user_id": user_id})
             if user is None:
                 return 511, "Non exist user id {}".format(user_id)
             if user['password'] != password:
                 return 401, "Authorization fail"
 
-            self.db['users'].update_one(
+            self.user_col.update_one(
                 {"user_id": user_id},
                 {"$inc": {"balance": add_value}}
             )
-
-            if self.db['users'].update_one(
-                    {"user_id": user_id},
-                    {"$inc": {"balance": add_value}}
-            ).modified_count == 0:
-                return 511, "Non exist user id {}".format(user_id)
 
         except pymongo.errors.PyMongoError as e:
             return 528, "{}".format(str(e))
