@@ -227,7 +227,10 @@ class Buyer:
                     {"store_id": store_id, "book_id": book_id, "stock_level": {"$gte": count}},
                     {"$inc": {"stock_level": -count}}
                 )
-                if cursor.modified_count == 0:
+                if self.db['store'].update_one(
+                    {"store_id": store_id, "book_id": book_id, "stock_level": {"$gte": count}},
+                    {"$inc": {"stock_level": -count}}
+                ).modified_count == 0:
                     return 517, "Stock level low, book id {}".format(book_id), order_id
 
                 self.db['order_detail'].insert_one({
@@ -297,7 +300,10 @@ class Buyer:
                 {"$inc": {"balance": -total_price}}
             )
 
-            if cursor.modified_count == 0:
+            if self.db['users'].update_one(
+                {"user_id": buyer_id, "balance": {"$gte": total_price}},
+                {"$inc": {"balance": -total_price}}
+            ).modified_count == 0:
                 return 519, "Not sufficient funds, order id {}".format(order_id)
 
             self.db['users'].update_one(
@@ -305,7 +311,10 @@ class Buyer:
                 {"$inc": {"balance": total_price}}
             )
 
-            if cursor.modified_count == 0:
+            if self.db['users'].update_one(
+                {"user_id": buyer_id},
+                {"$inc": {"balance": total_price}}
+            ).modified_count == 0:
                 return 511, "Non exist user id {}".format(buyer_id)
 
             self.db['orders'].delete_one({"order_id": order_id})
@@ -332,7 +341,10 @@ class Buyer:
                 {"$inc": {"balance": add_value}}
             )
 
-            if cursor.modified_count == 0:
+            if self.db['users'].update_one(
+                {"user_id": user_id},
+                {"$inc": {"balance": add_value}}
+            ).modified_count == 0:
                 return 511, "Non exist user id {}".format(user_id)
 
         except pymongo.errors.PyMongoError as e:
