@@ -32,9 +32,9 @@ class Book:
 
 class BookDB:
     def __init__(self, large: bool = False):
-        #parent_path = os.path.dirname(os.path.dirname(__file__))
-        #self.db_s = os.path.join(parent_path, "data/book.db")
-        #self.db_l = os.path.join(parent_path, "data/book_lx.db")
+        # parent_path = os.path.dirname(os.path.dirname(__file__))
+        # self.db_s = os.path.join(parent_path, "data/book.db")
+        # self.db_l = os.path.join(parent_path, "data/book_lx.db")
         # if large:
         #     self.book_db = self.db_l
         # else:
@@ -42,22 +42,40 @@ class BookDB:
         self.book_db = "mongodb://localhost:27017/"
 
     def get_book_count(self):
-        #conn = sqlite.connect(self.book_db)
+        # conn = sqlite.connect(self.book_db)
         conn = pymongo.MongoClient(self.book_db)
-        #cursor = conn.execute("SELECT count(id) FROM book")
+        # cursor = conn.execute("SELECT count(id) FROM book")
         books_col = conn['books']
         row = books_col.estimated_document_count(
-                  {"id":1,"_id":0})
-        
+            {"id": 1, "_id": 0})
+
         return row
 
     def get_book_info(self, start, size) -> [Book]:
         books = []
-        #conn = sqlite.connect(self.book_db)
+        # conn = sqlite.connect(self.book_db)
         conn = pymongo.MongoClient(self.book_db)
         books_col = conn['books']
-        cursor = books_col.find({},{"_id":0,"id":1, "title":1, "author":1, "publisher":1, "original_title":1, "translator":1, "pub_year":1, "pages":1, "price":1, "currency_unit":1, "binding":1, "isbn":1, "author_intro":1, "book_intro":1, "content":1, "tags":1, "picture":1}).sort('id',pymongo.ASCENDING).skip(start).limit(size)
-        #cursor = conn.execute(
+        cursor = books_col.find({},
+                                    {"_id": 0,
+                                     "id": 1,
+                                     "title": 1,
+                                     "author": 1,
+                                     "publisher": 1,
+                                     "original_title": 1,
+                                     "translator": 1,
+                                     "pub_year": 1,
+                                     "pages": 1,
+                                     "price": 1,
+                                     "currency_unit": 1,
+                                     "binding": 1,
+                                     "isbn": 1,
+                                     "author_intro": 1,
+                                     "book_intro": 1,
+                                     "content": 1,
+                                     "tags": 1,
+                                     "picture": 1}).sort('id', pymongo.ASCENDING).skip(start).limit(size)
+        # cursor = conn.execute(
         #    "SELECT id, title, author, "
         #    "publisher, original_title, "
         #    "translator, pub_year, pages, "
@@ -66,7 +84,7 @@ class BookDB:
         #    "content, tags, picture FROM book ORDER BY id "
         #    "LIMIT ? OFFSET ?",
         #    (size, start),
-        #)
+        # )
         for row in cursor:
             book = Book()
             book.id = row['id']
