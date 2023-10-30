@@ -40,7 +40,7 @@ class TestPayment:
             if book.price is None:
                 continue
             else:
-                self.total_price = self.total_price + book.price * num
+                self.total_price = self.total_price + int(book.price) * num
         yield
 
     def test_ok(self):
