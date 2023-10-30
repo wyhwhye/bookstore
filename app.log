@@ -657,3 +657,43 @@ INFO:werkzeug: * Restarting with watchdog (windowsapi)
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 668-644-548
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\db_conn.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\user.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\auth.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\threading.py', reloading
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:40:56] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:42:21] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:42:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:45:45] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:46:34] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:46:49] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:46:57] "POST /auth/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:47:10] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:47:14] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:47:20] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:47:29] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:47:39] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:55:02] "[35m[1mPOST /seller/add_book HTTP/1.1[0m" 516 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:56:19] "[35m[1mPOST /seller/add_book HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 22:56:25] "[35m[1mPOST /seller/add_book HTTP/1.1[0m" 513 -

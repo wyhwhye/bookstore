@@ -39,14 +39,19 @@ class BookDB:
         #     self.book_db = self.db_l
         # else:
         #     self.book_db = self.db_s
-        self.book_db = "mongodb://localhost:27017/"
+
+        # self.book_db = "mongodb://localhost:27017/"
+
+        client = pymongo.MongoClient("mongodb://localhost:27017/")  # 连接mongodb
+        db = client.bookstore  # 切换到bookstore数据库
+        self.books_col = db['book']
 
     def get_book_count(self):
         # conn = sqlite.connect(self.book_db)
-        conn = pymongo.MongoClient(self.book_db)
+        # conn = pymongo.MongoClient(self.book_db)
         # cursor = conn.execute("SELECT count(id) FROM book")
-        books_col = conn['books']
-        row = books_col.estimated_document_count(
+        # books_col = conn['books']
+        row = self.books_col.estimated_document_count(
             {"id": 1, "_id": 0})
 
         return row
@@ -54,27 +59,27 @@ class BookDB:
     def get_book_info(self, start, size) -> [Book]:
         books = []
         # conn = sqlite.connect(self.book_db)
-        conn = pymongo.MongoClient(self.book_db)
-        books_col = conn['books']
-        cursor = books_col.find({},
-                                    {"_id": 0,
-                                     "id": 1,
-                                     "title": 1,
-                                     "author": 1,
-                                     "publisher": 1,
-                                     "original_title": 1,
-                                     "translator": 1,
-                                     "pub_year": 1,
-                                     "pages": 1,
-                                     "price": 1,
-                                     "currency_unit": 1,
-                                     "binding": 1,
-                                     "isbn": 1,
-                                     "author_intro": 1,
-                                     "book_intro": 1,
-                                     "content": 1,
-                                     "tags": 1,
-                                     "picture": 1}).sort('id', pymongo.ASCENDING).skip(start).limit(size)
+        # conn = pymongo.MongoClient(self.book_db)
+        # books_col = conn['books']
+        cursor = self.books_col.find({},
+                                     {"_id": 0,
+                                      "id": 1,
+                                      "title": 1,
+                                      "author": 1,
+                                      "publisher": 1,
+                                      "original_title": 1,
+                                      "translator": 1,
+                                      "pub_year": 1,
+                                      "pages": 1,
+                                      "price": 1,
+                                      "currency_unit": 1,
+                                      "binding": 1,
+                                      "isbn": 1,
+                                      "author_intro": 1,
+                                      "book_intro": 1,
+                                      "content": 1,
+                                      "tags": 1,
+                                      "picture": 1}).sort('id', pymongo.ASCENDING).skip(start).limit(size)
         # cursor = conn.execute(
         #    "SELECT id, title, author, "
         #    "publisher, original_title, "
@@ -107,15 +112,16 @@ class BookDB:
 
             picture = row['picture']
 
-            # for tag in tags.split("\n"):
-            #     if tag.strip() != "":
-            #         book.tags.append(tag)
+            for tag in tags.split("\n"):
+                if tag.strip() != "":
+                    book.tags.append(tag)
+
             for i in range(0, random.randint(0, 9)):
-                # if picture is not None:
-                #     encode_str = base64.b64encode(picture).decode("utf-8")
-                #     book.pictures.append(encode_str)
-                encode_str = base64.b64encode(picture).decode("utf-8")
-                book.pictures.append(encode_str)
+                if picture is not None:
+                    encode_str = base64.b64encode(picture).decode("utf-8")
+                    book.pictures.append(encode_str)
+                # encode_str = base64.b64encode(picture).decode("utf-8")
+                # book.pictures.append(encode_str)
 
             books.append(book)
             # print(tags.decode('utf-8'))
