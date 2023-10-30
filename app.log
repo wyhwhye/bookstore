@@ -389,3 +389,170 @@ INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:11:09] "[31m[1mPOST /auth/login HT
 INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:11:14] "POST /auth/login HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:11:38] "POST /auth/logout HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:13:38] "POST /auth/password HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:18:17] "[35m[1mPOST /seller/create_store HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\seller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:20:56] "[35m[1mPOST /seller/create_store HTTP/1.1[0m" 530 -
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:23:23] "[35m[1mPOST /seller/create_store HTTP/1.1[0m" 530 -
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:25:59] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\dask\\tests\\test_local.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\dask\\tests\\test_core.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\intake\\catalog\\base.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\tornado\\web.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\tornado\\test\\httpclient_test.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\tornado\\test\\web_test.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\pyrsistent\\_pmap.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\view\\seller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:32:16] "[35m[1mPOST /seller/add_book HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:33:09] "[35m[1mPOST /seller/add_book HTTP/1.1[0m" 513 -
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\scipy\\stats\\tests\\test_sampling.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\turtle.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\numba\\tests\\test_serialize.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\bokeh\\server\\django\\routing.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\aiohttp\\web_urldispatcher.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:42:06] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\seller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:45:45] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:46:14] "[35m[1mPOST /seller/add_book HTTP/1.1[0m" 528 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\Programming\\SCHOOL\\DBMS\\Project1\\bookstore\\be\\model\\db_conn.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Anaconda\\Lib\\threading.py', reloading
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:48:28] "[35m[1mPOST /seller/add_book HTTP/1.1[0m" 528 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:51:58] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:53:34] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:55:58] "POST /seller/add_stock_level HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:56:30] "POST /seller/add_stock_level HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:57:11] "POST /seller/add_stock_level HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:57:55] "[35m[1mPOST /seller/add_stock_level HTTP/1.1[0m" 528 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 19:59:38] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 668-644-548
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 20:13:28] "POST /seller/add_stock_level HTTP/1.1" 200 -
