@@ -75,6 +75,7 @@
 #             return 530, "{}".format(str(e))
 #         return 200, "ok"
 import pymongo
+from be.model import error
 from pymongo import MongoClient
 import uuid
 
