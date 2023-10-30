@@ -15,7 +15,7 @@ class Store:
 
         # 设置唯一索引
         book_col = db['book']
-        book_col.create_index([("isbn", 1)], unique=True)
+        book_col.create_index([("id", 1)], unique=True)
 
         user_col = db['user']
         user_col.create_index([("user_id", 1)], unique=True)
