@@ -88,7 +88,12 @@ class Seller(db_conn.DBConn):
         self.user_col = self.conn['user']
 
     def add_book(
-            self, user_id: str, store_id: str, book_id: str, book_json_str: str, stock_level: int
+        self,
+        user_id: str,
+        store_id: str,
+        book_id: str,
+        book_json_str: str,
+        stock_level: int
     ):
         try:
             if not self.user_id_exist(user_id):

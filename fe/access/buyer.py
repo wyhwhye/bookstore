@@ -38,7 +38,7 @@ class Buyer:
         r = requests.post(url, headers=headers, json=json)
         return r.status_code
 
-    def add_funds(self, add_value: str) -> int:
+    def add_funds(self, add_value: int) -> int:
         json = {
             "user_id": self.user_id,
             "password": self.password,
