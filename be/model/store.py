@@ -25,6 +25,7 @@ class Store:
 
         order_col = db['order']
         order_col.create_index([("order_id", 1)], unique=True)
+        order_col.create_index([("TTL", -1)], expireAfterSeconds=30)  # 创建TTL索引
 
     # def init_tables(self):
     #

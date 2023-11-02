@@ -119,7 +119,11 @@ class Seller(db_conn.DBConn):
         return 200, "ok"
 
     def add_stock_level(
-            self, user_id: str, store_id: str, book_id: str, add_stock_level: int
+            self,
+            user_id: str,
+            store_id: str,
+            book_id: str,
+            add_stock_level: int
     ):
         try:
             if not self.user_id_exist(user_id):
@@ -157,3 +161,6 @@ class Seller(db_conn.DBConn):
         except BaseException as e:
             return 530, "{}".format(str(e))
         return 200, "ok"
+
+    def deliver_goods(self, order_id: str):
+        pass

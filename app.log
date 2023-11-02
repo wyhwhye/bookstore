@@ -3648,3 +3648,17 @@ INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 23:26:21] "POST /buyer/add_funds HTTP/1
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 23:26:21] "POST /auth/register HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 23:26:21] "POST /auth/login HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 23:26:21] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:01:14] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:02:12] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 518 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:02:17] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:02:28] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 528 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:03:56] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:04:08] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:11:18] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 520 -
