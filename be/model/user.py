@@ -41,6 +41,7 @@ class User(db_conn.DBConn):
     def __init__(self):
         db_conn.DBConn.__init__(self)
         self.user_col = self.conn['user']
+        self.store_col = self.conn['store']
 
     def __check_token(self, user_id, db_token, token) -> bool:
         try:
@@ -205,8 +206,8 @@ class User(db_conn.DBConn):
                 return code, message
 
             orders = self.user_col.find_one(
-                    {'user_id': user_id},
-                    {"_id": 0, "orders": 1}
+                {'user_id': user_id},
+                {"_id": 0, "orders": 1}
             )["orders"]
 
         except pymongo.errors.PyMongoError as e:
@@ -214,3 +215,26 @@ class User(db_conn.DBConn):
         except BaseException as e:
             return 530, "{}".format(str(e)), ""
         return 200, "ok", orders
+
+    def search_books(self, store_id: str, title: str, tags: str, content: str):
+        try:
+            books_ite = b = self.store_col.find(
+                {
+                    "store_id": {"$regex": store_id},
+                    "books.book_info.title": {"$regex": title},
+                    "books.book_info.tags": {"$regex": tags},
+                    "books.book_info.content": {"$regex": content},
+                },
+                {'_id': 0, "store_id": 1, "books.book_id": 1}
+            )
+            print(books_ite)
+            books = []
+            for b in books_ite:
+                print(b)
+                books.append(b)
+
+        except pymongo.errors.PyMongoError as e:
+            return 528, "{}".format(str(e)), ""
+        except BaseException as e:
+            return 530, "{}".format(str(e)), ""
+        return 200, "ok", books
