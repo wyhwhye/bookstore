@@ -146,5 +146,37 @@ class Buyer(db_conn.DBConn):
 
         return 200, "ok"
 
+    def receive_order(self,
+                      user_id: str,
+                      password: str,
+                      order_id: str
+    ):
+        try:
+            user = self.user_col.find_one({"user_id": user_id})
+            if user is None:
+                return error.error_non_exist_user_id(user_id)
+            if password != user['password']:
+                return error.error_authorization_fail()
+
+            order = self.order_col.find_one({"order_id": order_id})
+            if order is None:
+                return error.error_invalid_order_id(order_id)
+
+            status = order['status']
+            if status == "已完成":
+                return 523, {"已收货"}
+            elif status == "待发货" or status == "待支付":
+                return 524, {"请等待快递送出"}
+
+            self.order_col.update_one(
+                {"order_id": order_id},
+                {"$set": {"status": "已完成"}}
+            )
+        except pymongo.errors.PyMongoError as e:
+            return 528, "{}".format(str(e))
+        except BaseException as e:
+            return 530, "{}".format(str(e))
+        return 200, "ok"
+
     def cancel_order(self):
         pass
