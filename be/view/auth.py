@@ -55,3 +55,12 @@ def change_password():
         user_id=user_id, old_password=old_password, new_password=new_password
     )
     return jsonify({"message": message}), code
+
+
+@bp_auth.route("/view_order_history", methods=["POST"])
+def view_order_history():
+    user_id = request.json.get("user_id")
+    password = request.json.get("password")
+    u = user.User()
+    code, message, orders = u.view_order_history(user_id, password)
+    return jsonify({"message": message, "orders": orders}), code

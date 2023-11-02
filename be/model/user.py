@@ -197,3 +197,20 @@ class User(db_conn.DBConn):
         except BaseException as e:
             return 530, "{}".format(str(e))
         return 200, "ok"
+
+    def view_order_history(self, user_id: str, password: str):
+        try:
+            code, message = self.check_password(user_id, password)
+            if code != 200:
+                return code, message
+
+            orders = self.user_col.find_one(
+                    {'user_id': user_id},
+                    {"_id": 0, "orders": 1}
+            )["orders"]
+
+        except pymongo.errors.PyMongoError as e:
+            return 528, "{}".format(str(e)), ""
+        except BaseException as e:
+            return 530, "{}".format(str(e)), ""
+        return 200, "ok", orders

@@ -177,7 +177,8 @@ class Buyer(db_conn.DBConn):
             o = order.copy()
             o.pop('_id')
             o.pop('TTL')
-            o['completion_time'] = datetime.now().strftime('%Y-%m-%d')
+            o['status'] = "已完成"
+            o['completion_time'] = datetime.now().strftime('%Y-%m-%d %X')
 
             self.user_col.update_one(
                 {"user_id": user_id},
