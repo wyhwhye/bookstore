@@ -3662,3 +3662,7 @@ INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:03:56] "POST /buyer/new_order HTTP/1
 INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:04:08] "POST /buyer/payment HTTP/1.1" 200 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:11:18] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 520 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:30:45] "[33mPOST /buyer/deliver_goods HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 16:30:54] "POST /seller/deliver_goods HTTP/1.1" 200 -

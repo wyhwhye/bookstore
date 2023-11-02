@@ -145,3 +145,6 @@ class Buyer(db_conn.DBConn):
             return 530, "{}".format(str(e))
 
         return 200, "ok"
+
+    def cancel_order(self):
+        pass
