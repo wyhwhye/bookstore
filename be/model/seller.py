@@ -17,7 +17,7 @@ class Seller(db_conn.DBConn):
         user_id: str,
         store_id: str,
         book_id: str,
-        book_json_str: str,
+        book_dict: dict,
         stock_level: int
     ):
         try:
@@ -30,7 +30,7 @@ class Seller(db_conn.DBConn):
 
             book = {
                 "book_id": book_id,
-                "book_info": book_json_str,
+                "book_info": book_dict,
                 "stock_level": stock_level
             }
             self.store_col.update_one(

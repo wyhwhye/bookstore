@@ -37,7 +37,7 @@ class Buyer(db_conn.DBConn):
                 if book is None:
                     return error.error_non_exist_book_id(book_id) + (order_id,)
                 stock_level = book['stock_level']
-                price = json.loads(book['book_info'])['price']
+                price = book['book_info']['price']
                 if stock_level < count:
                     return error.error_stock_level_low(book_id) + (order_id,)
                 self.store_col.update_one(
