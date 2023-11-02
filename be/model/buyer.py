@@ -3,7 +3,7 @@ import uuid
 import json
 from be.model import db_conn
 from be.model import error
-import datetime
+from datetime import datetime
 
 
 class Buyer(db_conn.DBConn):
@@ -52,7 +52,7 @@ class Buyer(db_conn.DBConn):
                 "store_id": store_id,
                 "books": purchases,
                 "status": "待支付",
-                "TTL": datetime.datetime.utcnow()
+                "TTL": datetime.utcnow()
             })
 
             order_id = uid
@@ -150,7 +150,7 @@ class Buyer(db_conn.DBConn):
                       user_id: str,
                       password: str,
                       order_id: str
-                      ):
+    ):
         try:
             user = self.user_col.find_one({"user_id": user_id})
             if user is None:
@@ -172,6 +172,18 @@ class Buyer(db_conn.DBConn):
                 {"order_id": order_id},
                 {"$set": {"status": "已完成"}}
             )
+
+            # 加入历史订单
+            o = order.copy()
+            o.pop('_id')
+            o.pop('TTL')
+            o['completion_time'] = datetime.now().strftime('%Y-%m-%d')
+
+            self.user_col.update_one(
+                {"user_id": user_id},
+                {"$push": {"orders": o}}
+            )
+
         except pymongo.errors.PyMongoError as e:
             return 528, "{}".format(str(e))
         except BaseException as e:
@@ -182,7 +194,7 @@ class Buyer(db_conn.DBConn):
                      user_id: str,
                      password: str,
                      order_id: str
-                     ):
+    ):
         try:
             user = self.user_col.find_one({"user_id": user_id})
             if user is None:
