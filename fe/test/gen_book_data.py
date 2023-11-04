@@ -1,5 +1,6 @@
 import random
 from fe.access import book
+from  fe import conf
 from fe.access.new_seller import register_new_seller
 
 
@@ -22,7 +23,7 @@ class GenBook:
     ) -> (bool, []):
         self.__init_book_list__()
         ok = True
-        book_db = book.BookDB()
+        book_db = book.BookDB(conf.Use_Large_DB)
         rows = book_db.get_book_count()
         start = 0
         if rows > max_book_count:

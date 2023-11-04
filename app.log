@@ -3808,3 +3808,400 @@ INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:19:33] "POST /auth/search_books HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:19:39] "POST /auth/search_books HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:19:46] "POST /auth/search_books HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "[31m[1mPOST /buyer/add_funds HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "[31m[1mPOST /buyer/add_funds HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:25] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "[35m[1mPOST /seller/create_store HTTP/1.1[0m" 514 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "[35m[1mPOST /buyer/new_order HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[35m[1mPOST /buyer/new_order HTTP/1.1[0m" 513 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/password HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[31m[1mPOST /auth/password HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[31m[1mPOST /auth/password HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[31m[1mPOST /buyer/payment HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 519 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 520 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/unregister HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[31m[1mPOST /auth/unregister HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[31m[1mPOST /auth/unregister HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "POST /auth/register HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "G:\github\bookstore\be\model\user.py", line 65, in register
+    self.user_col.insert_one({
+  File "C:\Python311\Lib\site-packages\pymongo\collection.py", line 671, in insert_one
+    self._insert_one(
+  File "C:\Python311\Lib\site-packages\pymongo\collection.py", line 611, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Python311\Lib\site-packages\pymongo\mongo_client.py", line 1568, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\pymongo\mongo_client.py", line 1413, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\pymongo\mongo_client.py", line 1460, in _retry_internal
+    return func(session, conn, retryable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\pymongo\collection.py", line 609, in _insert_command
+    _check_write_command_response(result)
+  File "C:\Python311\Lib\site-packages\pymongo\helpers.py", line 259, in _check_write_command_response
+    _raise_last_write_error(write_errors)
+  File "C:\Python311\Lib\site-packages\pymongo\helpers.py", line 231, in _raise_last_write_error
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+pymongo.errors.DuplicateKeyError: E11000 duplicate key error collection: bookstore.user index: user_id_1 dup key: { user_id: "test_register_user_1698933147.9376566" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: bookstore.user index: user_id_1 dup key: { user_id: "test_register_user_1698933147.9376566" }', 'keyPattern': {'user_id': 1}, 'keyValue': {'user_id': 'test_register_user_1698933147.9376566'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\github\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\github\bookstore\be\model\user.py", line 80, in register
+    except pymongo.DuplicateKeyError:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'pymongo' has no attribute 'DuplicateKeyError'
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:52:27] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-871-721
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "[31m[1mPOST /buyer/add_funds HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "[31m[1mPOST /buyer/add_funds HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "[35m[1mPOST /seller/create_store HTTP/1.1[0m" 514 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[35m[1mPOST /buyer/new_order HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[35m[1mPOST /buyer/new_order HTTP/1.1[0m" 513 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/password HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[31m[1mPOST /auth/password HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[31m[1mPOST /auth/password HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[31m[1mPOST /buyer/payment HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 519 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 520 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/unregister HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[31m[1mPOST /auth/unregister HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[31m[1mPOST /auth/unregister HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2023 21:53:05] "GET /shutdown HTTP/1.1" 200 -
