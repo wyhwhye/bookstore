@@ -54,9 +54,9 @@ class Seller:
         r = requests.post(url, headers=headers, json=json)
         return r.status_code
     
-    def deliver_goods(self, store_id: str,order_id: str):
+    def deliver_goods(self, seller_id: str, store_id: str, order_id: str):
         json ={
-            "user_id": self.seller_id,
+            "user_id": seller_id,
             "store_id": store_id,
             "order_id": order_id
         }

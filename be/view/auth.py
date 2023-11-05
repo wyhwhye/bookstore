@@ -57,29 +57,3 @@ def change_password():
     return jsonify({"message": message}), code
 
 
-@bp_auth.route("/view_order_history", methods=["POST"])
-def view_order_history():
-    user_id = request.json.get("user_id")
-    password = request.json.get("password")
-    u = user.User()
-    code, message, orders = u.view_order_history(user_id=user_id, password=password)
-    return jsonify({"message": message, "orders": orders}), code
-
-
-@bp_auth.route("/search_books", methods=["POST"])
-def search_books():
-    store_id = request.json.get("store_id")
-    title = request.json.get("title")
-    tags = request.json.get("tags")
-    content = request.json.get("content")
-    if not store_id:
-        store_id = ''
-    if not title:
-        title = ''
-    if not tags:
-        tags = ''
-    if not content:
-        content = ''
-    u = user.User()
-    code, message, books = u.search_books(store_id=store_id, title=title, tags=tags, content=content)
-    return jsonify({"message": message, "books": books}), code

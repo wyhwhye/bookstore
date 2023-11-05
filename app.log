@@ -4774,3 +4774,2228 @@ INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 12:34:29] "POST /seller/add_book HTTP/1
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 13:12:22] "POST /seller/add_stock_level HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 13:13:07] "POST /seller/add_stock_level HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:44] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 518 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:40:45] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:17] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:17] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:17] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:17] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:17] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:19] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:21] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:21] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 519 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:41:21] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:06] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:07] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:08] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:08] "[35m[1mPOST /buyer/payment HTTP/1.1[0m" 519 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:42:08] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:05] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:49:06] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:32] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:32] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:32] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:50:33] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:51:20] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /seller/deliver_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\seller.py", line 60, in deliver_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "[35m[1mPOST /seller/deliver_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:17] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /seller/deliver_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\seller.py", line 60, in deliver_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "[35m[1mPOST /seller/deliver_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:53:18] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:43] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /seller/deliver_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\seller.py", line 60, in deliver_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "[35m[1mPOST /seller/deliver_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:58:44] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:48] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:48] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:48] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /seller/deliver_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\seller.py", line 60, in deliver_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "[35m[1mPOST /seller/deliver_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /seller/deliver_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\seller.py", line 60, in deliver_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "[35m[1mPOST /seller/deliver_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 17:59:49] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:41] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:01:42] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:37] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:37] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:37] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "POST /buyer/receive_goods HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:11:38] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "[31m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:00] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:01] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:26] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "[31m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:52] "POST /buyer/receive_goods HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:53] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:22:53] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 518 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:13] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:30] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:30] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:30] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:30] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "[31m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /buyer/new_order HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /buyer/receive_goods HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/receive_goods [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 52, in receive_goods
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 518 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:25:32] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /buyer/cancel_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/cancel_order [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 62, in cancel_order
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:54] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /buyer/cancel_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "[31m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:30:55] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:46] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:46] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:46] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:47] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:47] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:47] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:47] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:47] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:47] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/cancel_order [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 62, in cancel_order
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:47] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:34:47] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/cancel_order [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 62, in cancel_order
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:03] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:53] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:53] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:53] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /buyer/cancel_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/cancel_order [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 62, in cancel_order
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:54] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /buyer/cancel_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 518 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:35:55] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:40] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:40] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:40] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:40] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:40] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:40] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:40] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /buyer/cancel_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /buyer/payment HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/cancel_order [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 62, in cancel_order
+    return jsonify({"message": message}), code
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\Anaconda\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Anaconda\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Anaconda\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "D:\Anaconda\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:41] "[31m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 518 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:36:42] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:30] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "[31m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "[33mPOST /buyer/view_order_history HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:46:31] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "[35m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 511 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "[31m[1mPOST /buyer/receive_goods HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:49] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "[33mPOST /buyer/view_order_history HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:47:50] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:49] "[33mPOST /buyer/view_order_history HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "[33mPOST /buyer/view_order_history HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:50] "[33mPOST /buyer/view_order_history HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:50:51] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:23] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "[33mPOST /buyer/view_order_history HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "[33mPOST /buyer/view_order_history HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "[33mPOST /buyer/view_order_history HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:54:24] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /buyer/receive_goods HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/view_order_history [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 69, in view_order_history
+    u = user.User()
+NameError: name 'user' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "[35m[1mPOST /buyer/view_order_history HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:51] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /buyer/receive_goods HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/view_order_history [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 69, in view_order_history
+    u = user.User()
+NameError: name 'user' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "[35m[1mPOST /buyer/view_order_history HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "POST /buyer/receive_goods HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/view_order_history [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 69, in view_order_history
+    u = user.User()
+NameError: name 'user' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "[35m[1mPOST /buyer/view_order_history HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:57:52] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:27] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/receive_goods HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/view_order_history [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 70, in view_order_history
+    code, message, orders = b.view_order_history(user_id=user_id, password=password)
+ValueError: not enough values to unpack (expected 3, got 2)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "[35m[1mPOST /buyer/view_order_history HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/receive_goods HTTP/1.1" 200 -
+ERROR:be.serve:Exception on /buyer/view_order_history [POST]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Anaconda\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Anaconda\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Programming\SCHOOL\DBMS\Project1\bookstore\be\view\buyer.py", line 70, in view_order_history
+    code, message, orders = b.view_order_history(user_id=user_id, password=password)
+ValueError: not enough values to unpack (expected 3, got 2)
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "[35m[1mPOST /buyer/view_order_history HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:28] "POST /buyer/add_funds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:29] "POST /buyer/payment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:29] "POST /seller/deliver_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:29] "POST /buyer/receive_goods HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:29] "POST /buyer/view_order_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:59:29] "GET /shutdown HTTP/1.1" 200 -

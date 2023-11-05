@@ -95,8 +95,8 @@ class Seller(db_conn.DBConn):
         try:
             if not self.user_id_exist(user_id):
                 return error.error_non_exist_user_id(user_id)
-            if not self.store_id_exist(store_id):
-                return error.error_non_exist_store_id(store_id)
+            # if not self.store_id_exist(store_id):
+            #     return error.error_non_exist_store_id(store_id)
 
             order = self.order_col.find_one({"order_id": order_id})
             if order is None:

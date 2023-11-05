@@ -218,3 +218,48 @@ class Buyer(db_conn.DBConn):
         except BaseException as e:
             return 530, "{}".format(str(e))
         return 200, "ok"
+
+    def view_order_history(self, user_id: str, password: str):
+        try:
+            user = self.user_col.find_one({"user_id": user_id})
+            if user is None:
+                return error.error_non_exist_user_id(user_id)
+            if password != user['password']:
+                return error.error_authorization_fail()
+
+            cursor = self.user_col.find(
+                {'user_id': user_id},
+                {"_id": 0, "orders": 1}
+            )
+            orders = []
+            for order in cursor:
+                orders.append(order['orders'])
+
+        except pymongo.errors.PyMongoError as e:
+            return 528, "{}".format(str(e)), ""
+        except BaseException as e:
+            return 530, "{}".format(str(e)), ""
+        return 200, "ok", orders
+
+    def search_books(self, store_id: str, title: str, tags: str, content: str):
+        try:
+            books_ite = b = self.store_col.find(
+                {
+                    "store_id": {"$regex": store_id},
+                    "books.book_info.title": {"$regex": title},
+                    "books.book_info.tags": {"$regex": tags},
+                    "books.book_info.content": {"$regex": content},
+                },
+                {'_id': 0, "store_id": 1, "books.book_id": 1}
+            )
+            print(books_ite)
+            books = []
+            for b in books_ite:
+                print(b)
+                books.append(b)
+
+        except pymongo.errors.PyMongoError as e:
+            return 528, "{}".format(str(e)), ""
+        except BaseException as e:
+            return 530, "{}".format(str(e)), ""
+        return 200, "ok", books

@@ -40,3 +40,5 @@ class Auth:
         url = urljoin(self.url_prefix, "unregister")
         r = requests.post(url, json=json)
         return r.status_code
+
+
