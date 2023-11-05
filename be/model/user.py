@@ -21,7 +21,7 @@ def jwt_encode(user_id: str, terminal: str) -> str:
         key=user_id,
         algorithm="HS256",
     )
-    return encoded.decode("utf-8")
+    return encoded.encode("utf-8").decode("utf-8")
 
 
 # decode a JWT to a json string like:
@@ -77,7 +77,7 @@ class User(db_conn.DBConn):
             #    (user_id, password, 0, token, terminal),
             # )
             # self.conn.commit()
-        except pymongo.DuplicateKeyError:
+        except pymongo.errors.PyMongoError:
             return error.error_exist_user_id(user_id)
         return 200, "ok"
 
