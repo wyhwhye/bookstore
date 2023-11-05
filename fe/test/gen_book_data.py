@@ -1,6 +1,6 @@
 import random
 from fe.access import book
-from  fe import conf
+from fe import conf
 from fe.access.new_seller import register_new_seller
 
 
@@ -33,6 +33,7 @@ class GenBook:
         book_id_exist = []
         book_id_stock_level = {}
         for bk in books:
+            # print("###", bk, type(bk))
             if low_stock_level:
                 stock_level = random.randint(0, 100)
             else:
@@ -58,3 +59,10 @@ class GenBook:
         for item in self.buy_book_info_list:
             self.buy_book_id_list.append((item[0].id, item[1]))
         return ok, self.buy_book_id_list
+
+# if __name__ == '__main__':
+#     b = GenBook("wyhh","wyhh的小店")
+#     res,bb = b.gen(False,3)
+#     print(bb)
+    # for i in res:
+    #     print(i)

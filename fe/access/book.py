@@ -120,6 +120,7 @@ class BookDB:
                     encode_str = base64.b64encode(picture).decode("utf-8")
                     book.pictures.append(encode_str)
 
+            # print(type(book))
             books.append(book)
             # print(tags.decode('utf-8'))
             # print(book.tags, len(book.picture))
@@ -127,3 +128,12 @@ class BookDB:
             # print(tags)
 
         return books
+
+# if __name__ == '__main__':
+#     b = BookDB()
+#     res = b.get_book_info(1,2)
+#     for i in res:
+#         a = i.__dict__
+#         print(a)
+#         print(type(a))
+#         break

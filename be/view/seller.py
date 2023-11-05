@@ -23,6 +23,10 @@ def seller_add_book():
     book_info: dict = request.json.get("book_info")
     stock_level: int = request.json.get("stock_level", 0)
 
+    # print(book_info)
+    # print(type(book_info))
+    # print(stock_level)
+    # print(type(stock_level))
     s = seller.Seller()
     code, message = s.add_book(
         user_id, store_id, book_info.get("id"), book_info, stock_level
