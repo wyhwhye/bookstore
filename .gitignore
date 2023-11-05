@@ -3,3 +3,4 @@ fe/data/book.db
 fe/data/book_lx.db
 .coverage
 app.log
+*.pyc

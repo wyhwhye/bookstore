@@ -64,5 +64,5 @@ class GenBook:
 #     b = GenBook("wyhh","wyhh的小店")
 #     res,bb = b.gen(False,3)
 #     print(bb)
-    # for i in res:
-    #     print(i)
+#     for i in res:
+#         print(i)
