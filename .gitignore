@@ -1,4 +1,5 @@
 
 fe/data/book.db
 fe/data/book_lx.db
-fe/data/book.db
+.coverage
+app.log
