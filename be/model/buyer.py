@@ -248,6 +248,9 @@ class Buyer(db_conn.DBConn):
             return 530, "{}".format(str(e)), ""
         return 200, "ok", orders
 
+    def search_books(store_id="wyh的小店", title="计算机"):
+        pass
+
     def search_books(self, store_id: str, title: str, tags: str, content: str):
         try:
             books_ite = b = self.store_col.find(

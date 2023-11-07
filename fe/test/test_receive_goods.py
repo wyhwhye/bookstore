@@ -45,10 +45,6 @@ class TestReceiveGoods:
         code = self.buyer.receive_goods(self.order_id)
         assert code != 200
 
-    def test_not_deliver(self):
-        code = self.buyer.receive_goods(self.order_id)
-        assert code != 200
-
     def test_error_order_id(self):
         code = self.buyer.add_funds(self.total_price)
         assert code == 200
@@ -62,14 +58,23 @@ class TestReceiveGoods:
         code = self.buyer.receive_goods(self.order_id + '_x')
         assert code != 200
 
+    def test_not_deliver(self):
+        # 未付款
+        code = self.buyer.receive_goods(self.order_id)
+        assert code != 200
+        code = self.buyer.add_funds(self.total_price)
+        assert code == 200
+        code = self.buyer.payment(self.order_id)
+        assert code == 200
+        # 未发货
+        code = self.buyer.receive_goods(self.order_id)
+        assert code != 200
+
     def test_ok(self):
         code = self.buyer.add_funds(self.total_price)
         assert code == 200
         code = self.buyer.payment(self.order_id)
         assert code == 200
-
-        code = self.buyer.receive_goods(self.order_id)
-        assert code != 200
         code = self.seller.deliver_goods(self.buyer_id, self.store_id, self.order_id)
         assert code == 200
 

@@ -11543,3 +11543,20 @@ INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 13:45:14] "POST /seller/add_book HTTP/1
 INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 13:45:14] "POST /seller/add_book HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 13:45:14] "[35m[1mPOST /seller/add_book HTTP/1.1[0m" 528 -
 INFO:werkzeug:127.0.0.1 - - [06/Nov/2023 13:45:15] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 18:54:09] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 18:57:01] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 518 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 18:57:06] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 18:57:27] "POST /buyer/cancel_order HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /seller/create_store HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /seller/add_book HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:31:36] "POST /buyer/new_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:32:36] "[35m[1mPOST /buyer/cancel_order HTTP/1.1[0m" 518 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2023 20:32:36] "GET /shutdown HTTP/1.1" 200 -

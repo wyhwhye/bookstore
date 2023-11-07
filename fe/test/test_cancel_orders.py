@@ -1,3 +1,5 @@
+import time
+
 import pytest
 
 from fe.access.buyer import Buyer
@@ -43,6 +45,18 @@ class TestCancelOrders:
                 self.total_price = self.total_price + int(book.price) * num
         yield
 
+    def test_error_user_id(self):
+        code = self.buyer.cancel_order(self.buyer_id + '_x', self.password, self.order_id)
+        assert code != 200
+
+    def test_error_password(self):
+        code = self.buyer.cancel_order(self.buyer_id, self.password+'_x', self.order_id)
+        assert code != 200
+
+    def test_error_order_id(self):
+        code = self.buyer.cancel_order(self.buyer_id, self.password, self.order_id + '_x')
+        assert code != 200
+
     def test_ok(self):
         code = self.buyer.cancel_order(self.buyer_id, self.password, self.order_id)
         assert code == 200
@@ -55,14 +69,7 @@ class TestCancelOrders:
         code = self.buyer.cancel_order(self.buyer_id, self.password, self.order_id)
         assert code != 200
 
-    def test_error_user_id(self):
-        code = self.buyer.cancel_order(self.buyer_id + '_x', self.password, self.order_id)
-        assert code != 200
-
-    def test_error_password(self):
-        code = self.buyer.cancel_order(self.buyer_id, self.password+'_x', self.order_id)
-        assert code != 200
-
-    def test_error_order_id(self):
-        code = self.buyer.cancel_order(self.buyer_id, self.password, self.order_id + '_x')
+    def test_dued_order(self):
+        time.sleep(60)
+        code = self.buyer.cancel_order(self.buyer_id, self.password, self.order_id)
         assert code != 200
