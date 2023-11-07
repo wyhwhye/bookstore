@@ -213,6 +213,13 @@ class Buyer(db_conn.DBConn):
 
             self.order_col.delete_one({"order_id": order_id})
 
+            store_id = order["store_id"]
+            for book in order['books']:
+                self.store_col.update_one(
+                    {"store_id": store_id, "books.book_id": book["book_id"]},
+                    {"$inc": {"books.$.stock_level": book["count"]}}
+                )
+
         except pymongo.errors.PyMongoError as e:
             return 528, "{}".format(str(e))
         except BaseException as e:
@@ -252,10 +259,10 @@ class Buyer(db_conn.DBConn):
                 },
                 {'_id': 0, "store_id": 1, "books.book_id": 1}
             )
-            print(books_ite)
+            # print(books_ite)
             books = []
             for b in books_ite:
-                print(b)
+                # print(b)
                 books.append(b)
 
         except pymongo.errors.PyMongoError as e:
