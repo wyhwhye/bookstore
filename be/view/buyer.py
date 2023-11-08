@@ -71,20 +71,20 @@ def view_order_history():
     return jsonify({"message": message, "orders": orders}), code
 
 
-#@bp_buyer.route("/search_books", methods=["POST"])
-#def search_books():
-#    store_id = request.json.get("store_id")
-#    title = request.json.get("title")
-#    tags = request.json.get("tags")
-#    content = request.json.get("content")
-#    if not store_id:
-#        store_id = ''
-#    if not title:
-#        title = ''
-#    if not tags:
-#        tags = ''
-#    if not content:
-#        content = ''
-#    b = Buyer()
-#    code, message, books = b.search_books(store_id=store_id, title=title, tags=tags, content=content)
-#    return jsonify({"message": message, "books": books}), code
+@bp_buyer.route("/search_books", methods=["POST"])
+def search_books():
+   store_id = request.json.get("store_id")
+   title = request.json.get("title")
+   tags = request.json.get("tags")
+   content = request.json.get("content")
+   if not store_id:
+       store_id = ''
+   if not title:
+       title = ''
+   if not tags:
+       tags = ''
+   if not content:
+       content = ''
+   b = Buyer()
+   code, message, books = b.search_books(store_id=store_id, title=title, tags=tags, content=content)
+   return jsonify({"message": message, "books": books}), code

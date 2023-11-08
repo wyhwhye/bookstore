@@ -150,7 +150,7 @@ class Buyer(db_conn.DBConn):
                       user_id: str,
                       password: str,
                       order_id: str
-    ):
+                      ):
         try:
             user = self.user_col.find_one({"user_id": user_id})
             if user is None:
@@ -195,7 +195,7 @@ class Buyer(db_conn.DBConn):
                      user_id: str,
                      password: str,
                      order_id: str
-    ):
+                     ):
         try:
             user = self.user_col.find_one({"user_id": user_id})
             if user is None:
@@ -248,21 +248,42 @@ class Buyer(db_conn.DBConn):
             return 530, "{}".format(str(e)), ""
         return 200, "ok", orders
 
-    def search_books(store_id="wyh的小店", title="计算机"):
-        pass
-
     def search_books(self, store_id: str, title: str, tags: str, content: str):
         try:
-            books_ite = b = self.store_col.find(
-                {
-                    "store_id": {"$regex": store_id},
-                    "books.book_info.title": {"$regex": title},
-                    "books.book_info.tags": {"$regex": tags},
-                    "books.book_info.content": {"$regex": content},
-                },
-                {'_id': 0, "store_id": 1, "books.book_id": 1}
-            )
-            # print(books_ite)
+
+            m = {}
+            if store_id:
+                m['store_id'] = {"$regex": store_id}
+            if title:
+                m['books.book_info.title'] = {"$regex": title}
+            if tags:
+                m['books.book_info.tags'] = {"$regex": tags}
+            if content:
+                m['books.book_info.content'] = {"$regex": content}
+
+            unwind = {"$unwind": "$books"}
+            # match = {
+            #         "$match": {
+            #             "store_id": {"$regex": store_id},
+            #             "books.book_info.title": {"$regex": title},
+            #             "books.book_info.tags": {"$regex": tags},
+            #             "books.book_info.content": {"$regex": content},
+            #         }
+            #     }
+            match = {
+                "$match": m
+            }
+            project = {
+                "$project": {
+                    "_id": 0,
+                    "store_id": "$store_id",
+                    "book_id": "$books.book_id",
+                    "title": "$books.book_info.title"
+                }
+            }
+
+            books_ite = self.store_col.aggregate([unwind, match, project])
+
             books = []
             for b in books_ite:
                 # print(b)
